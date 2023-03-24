@@ -16,7 +16,7 @@ namespace Game.Core.UI
 
         private void Start()
         {
-            _popupController = new PopupEnquer<IPopup>();
+            _popupController = new PopupEnquer<IPopup>();          // if you want to show popup over popup, you should create more enquiers
             _popupController.Setup(_popupManager);
         }
 
